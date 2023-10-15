@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  height: 100vh;
+  width: 50vw;
+  background-color: #96cfe6;
+  text-align: center;
+}
+
+.material-icons {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.INP-lable {
+  display: flex;
+  justify-content: center;
+}
+
+#file[type="file"] {
+  display: none;
+}
+
+.result {
+  width: 100%;
+  display: block;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  padding: 0.75rem;
+}
+
+.picture {
+  width: 30vh;
+  height: 210px;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  border: 2px dashed currentcolor;
+  cursor: pointer;
+  font-family: sans-serif;
+  outline: none;
+  overflow: hidden;
+}
+
+.logo {
+  color: white;
+}
+
+.navbar {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  height: 90px;
+}
+
+.Links {
+  margin-top: 60px;
+  color: whitesmoke;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 20px;
+  line-height: 80px;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.tab-container {
+  display: flex;
+  /* align-items: baseline; */
+  /* margin-top: 40px; */
+}
+
+.text-field {
+  position: relative;
+  margin-top: 12px;
+}
+
+/* .text-field span {
+  color: #b91818;
+  font-size: 13px;
+} */
+.text-field p {
+  color: #4690e1;
+  font-size: 13px;
+  position: absolute;
+  top: -18px;
+  right: 5px;
+  /* left: 0px; */
+}
+
+.text-field input,
+.text-field textarea {
+  display: inline-block;
+  border: 1px solid #dddddd;
+  /*  border-bottom: 1px solid var(--green);  */
+  /* color: var(--labelColor); */
+  background-color: #fff;
+  padding: 5px 8px 3px 8px;
+  width: 100%;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.text-field input:focus,
+.text-field textarea:focus {
+  /* border: 1px solid #dddddd !important; */
+  border: 1px solid #4690e1 !important;
+  background-color: #fff;
+  outline: none;
+}
+
+.text-field label {
+  color: #333;
+  font-size: 12px;
+  position: absolute;
+  pointer-events: none;
+  left: 3px;
+  top: -19px;
+  transition: 0.2s;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.firstTr{
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  margin-bottom: 3px;
+}
+
+.SecondTable{
+  margin-top: 100px;
+}
